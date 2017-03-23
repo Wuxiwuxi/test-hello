@@ -34,11 +34,11 @@ class Person(object):
 
 
  # make sure the person is a sophomore
-    def check(id) :
-        if id[3:] == "1512":
-            return "sophomore"
-        else :
-            return "not a sophomore"
+def check(id) :
+    if id[:4] == "1512":
+        return "sophomore"
+    else :
+        return "not a sophomore"
 
 
 f = open(r"/home/wuxi/Downloads/testfile")
