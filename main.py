@@ -3,51 +3,37 @@
 
 ''' Hello
  I am talking to myself
-
-
  have a nice day'''
 
 
- """ Have 
-
- a 
-
-
- nice
-
-
- day
-
- """
-
+""" Have 
+a 
+nice
+day
+"""
+#data I want to store
 name
 id
 price
 date
 
-
-
 #Step 1:
 print " Download  https://nextmovesoftware.com/blog/2014/02/27/unleashing-over-a-million-reactions-into-the-wild/"
 
-
 #Step 2:
-print " open first file and work out how data is given "
-
+print " open first file and work out how data is stored "
 
 #step 3:
-print " write a very very simple python script to STORE the data. "
+print " write a very simple python script to STORE the data. "
 
-
+#e.g.
 f = open('1IDU.pdb',r)
 lines = f.readlines()
 
 words = lines[0].split() 
-
 name =  words[1]
 id = words [3]
 date = words[2] 
-
 
 assert name == "OXIDOREDUCTASE"
 assert id =="1IDU"
@@ -62,10 +48,4 @@ assert date == '5-APR-01'
 
 # I have ~3 million molecules.
 
-
 # I have downloaded these reactions as text files.
-
-
-
-
-print " hello"
